@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/icons8-rocket-48.png" type="image/x-icon">
+    <style>
+h1
+{
+
+    font-family: 'Libre Baskerville', serif;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./biografia.html">Biografía</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="#">Contacto</a>    
+        </nav>
+
+    </header>
+
+    <section id="form">
+
+
+        <article>
+            <form action="#club" id="contactForm" method="">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Introduce nombre..." minlength="3"
+                maxlenght="30" required autofocus tabindex="0"><br>
+
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Introduce apellidos..." minlength="3"
+                maxlenght="30" required tabindex="0"><br>
+
+                <label for="fname">Edad:</label><br>
+                <input type="number" id="age" name="edad" placeholder="Introduce tu edad" required tabindex="0"><br>
+        </article>
+    
+
+        <article>
+            <label for="algo">Cuéntame en que puedo ayudarte</label><br>
+            <input type="textarea" name="texto" id="text" placeholder="Cuéntanos algo sobre ti..." rows="4" cols="18" tabindex="0"><br> </textarea>
+   
+
+    
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="Escríbalo aqui..." tabindex="0"><br>
+    
+            <label for="tlf">Teléfono:</label><br>
+            <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Introduce teléfono..." required tabindex="0"/><br>   
+ 
+
+            <input type="reset"></input>
+            <input type="submit" value="Enviar">    
+        </form>
+        </article>
+    </section>
+
+</body>
+</html>

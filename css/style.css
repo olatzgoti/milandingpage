@@ -1,0 +1,353 @@
+/*COLORES
+AMARANT PURPLE A63A50
+ROSY BROWN CB9194
+ANTIQUE WHITE F0E7D8
+CINEREOUS AB9B96
+BROWN SUGAR A1674A
+OLD ROSE BA6E6E
+*/
+
+*{
+    background-color: #aa8f95;
+    color:#1c1b1b
+}
+header
+{
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+nav
+{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-size-adjust: 20px;
+    border-bottom: 3px solid #ba6e6e;
+    padding-bottom: 15px;
+    padding: 10px;
+}
+
+nav>a
+{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover
+{
+    color: #A63A50;
+    background-color: antiquewhite;
+}
+
+ section
+ {
+     justify-content: center;
+     text-align: center;
+ }
+ 
+section>article
+{
+    display: block;
+    justify-content: center;
+    border-radius: 15px;
+}
+.bio{
+margin-left: 35px;
+margin-right: 35px;
+}
+#portafolio1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+section#videos
+{
+display: block;
+text-align: center;
+border: 1px solid rgb(191, 22, 50);
+border-radius: 10px;
+padding-top: 30px;
+}
+
+#videos>video
+{
+    margin-top: 0;
+padding: 5px;
+padding-top: 0%;
+
+}
+
+img
+{
+    width: 40%;
+    object-fit: cover;
+    padding: 20px;
+}
+img:hover {
+	opacity: 70%;
+}
+
+h1
+{
+    font-family: 'Libre Baskerville', serif;
+}
+p
+{
+    padding: 20px;
+    text-align: start;
+}
+
+
+#form
+{
+    margin-top: 20px;
+display: block;
+padding-top: 30px;
+border-radius: 15px;
+border: 2px solid #F0E7D8;
+}
+
+
+
+input
+{
+    margin: 20px;
+    padding: 5px;
+    color:rgb(39, 27, 12);
+    background-color: antiquewhite;
+}
+input:focus
+{
+
+width:230px;
+}
+footer
+{
+    padding: 20px;
+    justify-content: center;
+    background-color: #BA6E6E;
+}
+
+footer>div
+{background-color: #BA6E6E;
+    padding: 15px;
+    margin: 15px;
+ 
+}
+footer>div>a
+{
+
+background-color: #BA6E6E;
+}
+
+.inicio>img
+{width: 100%;}
+
+.inicio
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 700px)
+{
+
+  nav
+{
+
+flex-direction: row;
+text-align: center;
+justify-content: space-evenly;
+}
+a:hover
+{
+width: 100px;
+}
+
+fieldset>section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.inicio
+{
+text-align: center;
+justify-content: center;
+}
+.inicio>img
+{
+    width:60%;
+
+}
+
+section{
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#portafolio1
+{   display: flex;
+    flex-wrap: wrap;
+}
+
+#portafolio1>img
+{
+    width: 180px;
+}
+
+
+#form
+{   margin-top: 20px;
+    display: block;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 2px solid #F0E7D8;
+}
+
+input
+
+{
+width: 200px;
+
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #BA6E6E;
+}
+footer>div
+{
+    background-color: #BA6E6E;
+}
+footer>div>a
+{
+
+    background-color: #BA6E6E;
+}
+}
+img:hover {
+	opacity: 70%;
+}
+
+@media screen and (min-width: 700px)
+
+{
+
+    nav
+    {
+    
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    }
+
+    a:hover
+    {
+        width: 200px;
+        font-size: 25px;
+        border: 2px solid salmon;
+    }
+  
+
+    fieldset>section
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border-radius: 15px;
+        border: 2px solid #F0E7D8;
+        
+    }
+    legend
+    {
+
+    padding-right: 100px;
+    }
+
+    p
+    {
+    font-size: 30px;
+    border-bottom: 1px solid #ba6e6e;
+    padding: 30px;
+    }
+
+    .bio
+    {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    }
+
+    #portafolio1
+    {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    #portafolio1>img
+    {
+    width: 200px;
+    }
+    #form
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+    border-radius: 15px;
+    border: 2px solid #F0E7D8;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    }
+
+    #form>article
+    {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    input
+    {
+    width: 250px;
+    }
+    .inicio>img
+    {
+
+    width: 60%;
+    }
+    footer
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #BA6E6E;
+    }
+
+    footer>div
+    {
+    background-color: #BA6E6E;
+
+    }
+
+    footer>div>a
+    {
+    background-color: #BA6E6E;
+    }
+    img:hover {
+        opacity: 70%;
+    }
+}
